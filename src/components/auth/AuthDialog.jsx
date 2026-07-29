@@ -5,7 +5,7 @@ import ForestMap from '../dashboards/ForestMap';
 import '../../assets/CSS/auth.scss';
 
 // Axios default config
-axios.defaults.baseURL = 'http://localhost:8000/api';
+axios.defaults.baseURL = `${import.meta.env.VITE_API_URL}/api`;
 axios.defaults.headers.common['Accept'] = 'application/json';
 
 // --- Subcomponents ---
