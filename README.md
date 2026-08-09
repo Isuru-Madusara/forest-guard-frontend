@@ -1,16 +1,17 @@
-# React + Vite
+This project is to design and develop a web-based timber management system (Forest Guard) that allows government authorities to monitor and regulate timber activities efficiently. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**The objectives of the project are:** 
+1. To develop a system for registering and approving timber companies 
+2. To implement a role-based access system (Admin, Company, Forest Officer) 
+3. To integrate an interactive map for selecting and monitoring forest areas 
+4. To implement a timber cutting request and approval system 
+5. To track replantation and seed collection activities 
+6. To maintain records of timber sales 
+7. To detect and manage violations in forest usage
 
-Currently, two official plugins are available:
+ **Technologies Used:** 
+• Frontend: HTML, CSS, JavaScript, Bootstrap 
+• Backend: PHP (Laravel / PHP Blade) 
+• Database: MySQL  
+• Map Integration: Leaflet.js   
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
